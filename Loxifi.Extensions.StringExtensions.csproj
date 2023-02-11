@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+	  <TargetFramework>netstandard2.1</TargetFramework>
+	  <ImplicitUsings>enable</ImplicitUsings>
+	  <Nullable>enable</Nullable>
+	  <LangVersion>latest</LangVersion>
+	  <PackageProjectUrl>http://loxifi.com/Projects/Loxifi.Extensions.StringExtensions</PackageProjectUrl>
+	  <Version>0.1.0</Version>
+	  <GenerateDocumentationFile>true</GenerateDocumentationFile>
+	  <PackageIcon>Properties\Icon.png</PackageIcon>
+	  <Description>
+		  A collection of string extension methods to simplify common tasks, reducing boilerplate code
+	  </Description>
+	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	  <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+	  <PackageLicenseFile>Properties\License.txt</PackageLicenseFile>
+	  <IncludeSymbols>true</IncludeSymbols>
+	  <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+	  <PackageReadmeFile>README.md</PackageReadmeFile>
+	  <RepositoryUrl>https://github.com/Loxifi/Loxifi.Extensions.StringExtensions.git</RepositoryUrl>
+	  <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+  <ItemGroup>
+	  <None Include="Properties\License.txt" Pack="true"  PackagePath="Properties\License.txt"/>
+	  <None Include="Properties\Icon.png" Pack="true"  PackagePath="Properties\Icon.png"/>
+	  <None Include="README.md" Pack="true"  PackagePath="README.md"/>
+  </ItemGroup>
+</Project>
